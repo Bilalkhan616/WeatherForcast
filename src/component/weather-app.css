@@ -1,0 +1,43 @@
+.main-container {
+  /* background: #20002c;  */
+  /* fallback for old browsers */
+  /* background: -webkit-linear-gradient(
+    to right,
+    #cbb4d4,
+    #20002c
+  );  */
+  /* background: linear-gradient(
+    to right,
+    #cbb4d4,
+    #20002c
+  ); */
+}
+
+.row-container {
+  display: grid;
+  grid-template-rows: auto;
+  flex-direction: row;
+  border-width: 1;
+  margin-top: 2px;
+  border-color: black;
+  border-radius: 15px;
+  margin-left: 20%;
+  margin-right: 20%;
+  /* border-style: solid; */
+  background-color: #8ec5fc;
+  background-image: linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%);
+}
+
+.temp-day {
+  font-size: 25px;
+}
+
+.weather-info {
+  flex-direction: row;
+  justify-content: center;
+}
+
+.weather-main {
+  color: black;
+  font-size: 25px;
+}
